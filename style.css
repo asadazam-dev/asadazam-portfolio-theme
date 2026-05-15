@@ -1,0 +1,27 @@
+/*
+Theme Name:        Asad Azam Portfolio
+Theme URI:         https://kreativehive.net/portfolio
+Author:            Asad Azam
+Author URI:        https://kreativehive.net/portfolio
+Description:       A custom-built portfolio theme for Asad Azam, Senior WordPress Developer & WooCommerce Specialist. Built from scratch — no page builders, no bloated frameworks, no shortcuts. Custom Post Types for projects, testimonials, and FAQ items. Full dark/light theme support. Performance-first architecture targeting Core Web Vitals 90+.
+Version:           1.0.0
+Requires at least: 6.0
+Tested up to:      6.5
+Requires PHP:      8.0
+License:           Proprietary
+License URI:       https://kreativehive.net/portfolio
+Text Domain:       asadazam
+Tags:              portfolio, custom-theme, dark-mode, light-mode, woocommerce-developer
+*/
+
+/*
+ * This file is intentionally near-empty.
+ * All actual styles live in assets/css/main.css and are enqueued via inc/enqueue.php.
+ * This is a senior-level pattern: keep the WP theme metadata file pristine,
+ * separate concerns, and load assets through the proper WordPress hooks.
+ *
+ * Why this matters in interviews:
+ * - Shows understanding of wp_enqueue_style vs. legacy direct linking
+ * - Enables proper cache-busting via filemtime()
+ * - Allows conditional loading and dependency management
+ */
