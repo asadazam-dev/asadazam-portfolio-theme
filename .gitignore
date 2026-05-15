@@ -1,0 +1,73 @@
+# =============================================================================
+# .gitignore — Asad Azam Portfolio Theme
+# Keeps OS noise, editor junk, and accidental dev files out of the public repo.
+# =============================================================================
+
+# ----- macOS -----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ----- Windows -----
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ----- Linux -----
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ----- Editor / IDE artifacts -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
+.project
+.settings/
+.buildpath
+nbproject/
+*.code-workspace
+
+# ----- WordPress / PHP runtime junk -----
+*.log
+error_log
+debug.log
+*.bak
+*.tmp
+
+# ----- If you ever add a build step (currently none) -----
+node_modules/
+package-lock.json
+yarn.lock
+.cache/
+dist/
+build/
+
+# ----- Local development files that shouldn't ship -----
+*.local.php
+local-config.php
+wp-config.local.php
+
+# ----- Compiled assets — keep sources, exclude generated -----
+# (Not used currently — this theme ships pre-minified production files.
+# Add entries here if you introduce a build pipeline later.)
+
+# ----- Sensitive / private -----
+.env
+.env.local
+*.key
+*.pem
